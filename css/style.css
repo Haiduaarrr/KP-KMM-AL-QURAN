@@ -1,0 +1,53 @@
+.card-surat {
+  cursor: pointer;
+  transition: 0.8s;
+}
+
+.card-surat:hover {
+  background-color: lightblue;
+  transform: scale(1.1);
+}
+
+.loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: grid;
+  place-items: center;
+  font-style: italic;
+  font-size: 30px;
+}
+
+/* Place item sama dengan align-items dan justify-content di css */
+
+.hidden-loader {
+  display: none;
+}
+
+.card-surat-list h3 {
+  font-family: "Amiri", serif;
+}
+
+.arabic {
+  font-size: 28px;
+  font-family: "Amiri", serif;
+  direction: rtl;
+  text-align: right;
+  line-height: 2;
+}
+
+.hidden-button {
+  display: none;
+}
+
+.isi-surat .nomor-ayat {
+  font-weight: bold;
+  font-size: 20px;
+  color: rgb(94, 73, 73);
+  font-family: "Amiri", serif;
+  background: #0000000a;
+  padding: 5px 5px;
+  border-radius: 5px;
+}
